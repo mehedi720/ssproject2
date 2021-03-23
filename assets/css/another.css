@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+    width: 100%;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.navigation nav{
+    width: 90vw;
+    padding: 10px 0px;
+    margin: auto;
+    display: flex;
+}
+.brand{
+    flex-basis: 30%;
+}
+.nav-menu{
+    flex-basis: 70%;
+    text-align: right;;
+}
+.nav-menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left:20px ;
+
+}
+.nav-menu li a{
+    padding: 10px;
+    font-size: 18px;
+    line-height: 38px;
+    color: #3b506c;
+}
+.nav-menu li a:hover{
+    color: #0C66FF;
+}
+.main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.items{
+    width: 800px;
+    text-align: center;
+}
+.top-text-content h1{
+    font-size: 60px;
+    line-height: 80px;
+    color: #3b506c;
+
+}
+.top-text-content h1 span{
+    color: #0C66FF;
+}
+.top-text-content p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bottom-text-content{
+    display: flex;
+
+}
+.bottom-text-content div{
+    padding: 15px;
+}
+.text-left h3{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #f16787;
+    text-align: right;
+}
+.text-left p{
+    line-height: 25px;
+    font-size: 18px;
+    text-align: right;
+}
+.text-right h3{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 800;
+    text-align: left;
+}
+.slides{
+    width: 100%;
+    padding: 50px 0;
+}
+.slide-container{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.slide{
+    flex-basis: 30%;
+}
+.slide:nth-child(1) .slide-content{
+    background-color: #FDEBED;
+}
+.slide:nth-child(2) .slide-content{
+    background-color: #EBF9F4;
+}
+.slide:nth-child(3) .slide-content{
+    background-color: #FFF7E8;
+
+}
+.slide-content{
+    margin: 30px;
+    padding: 80px 60px
+}
+.slide-content img{
+    text-align: center;
+}
+.slide-content h4{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #3b506c;
+    letter-spacing: 1px;
+}
+.slide-content p{
+    color: #3b506c;
+    font-size: 16px;
+    line-height: 26px;
+}
+footer{
+    width: 100%;
+}
+footer p{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #008AFF;
+    color: white;
+    font-size: 14px;
+}
+footer p span{
+    letter-spacing: 3px;
+    font-weight: 800;
+}
